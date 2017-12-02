@@ -1,20 +1,26 @@
-baseURL = "https://www.davidjohnston.io/"
+baseurl = "https://www.davidjohnston.io/"
 languageCode = "en-us"
-title = "David's Blog"
-theme = "hemingway2"
+Title = "David's Blog"
+# Copyright notice. This is displayer in the footer.
 copyright = "&copy; <a href=\"https://github.com/djohnston08\">David Johnston</a> 2017"
-description = "Just some notes along the way as we figure out things for work and play."
+theme = "hugo_theme_pickles"
 
 [params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "djohnston"
+  github = "djohnston08"
+  # Google Analytics API key.
+  ga_api_key = "UA-110481103-1"
+  author = "David Johnston"
+  authorwebsite = "davidjohnston.io"
+  # avatar = "/path/to/avatar"
+  # contact = "https://twitter.com/djohnston"
+  bio = "Father, husband, developer"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Random exploring of whatever interests me."
+  # Logo image. This is displayed ogp image.
+  logo = "/path/to/logo"
+  favicon = "/path/to/favicon"
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile", "php", "sh"]
-
-[[params.social]]
-url = "https://github.com/djohnston08"
-fa_icon = "fa-github"
-
-[[params.social]]
-url = "https://twitter.com/djohnston"
-fa_icon = "fa-twitter"
